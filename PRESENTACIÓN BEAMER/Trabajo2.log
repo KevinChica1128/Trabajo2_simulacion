@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  23 APR 2018 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  12 MAY 2018 22:44
 entering extended mode
-**./Trabajo1.tex
-(Trabajo1.tex
+**./Trabajo2.tex
+(Trabajo2.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 
@@ -1114,7 +1114,7 @@ Package babel Info: Making > an active character on input line 707.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 10.
 
-(Trabajo1.aux
+(Trabajo2.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 
@@ -1124,8 +1124,23 @@ LaTeX Warning: Label `figura2' multiply defined.
 
 LaTeX Warning: Label `figura2' multiply defined.
 
+
+LaTeX Warning: Label `figura2' multiply defined.
+
+
+LaTeX Warning: Label `figura2' multiply defined.
+
+
+LaTeX Warning: Label `figura2' multiply defined.
+
+
+LaTeX Warning: Label `figura2' multiply defined.
+
+
+LaTeX Warning: Label `figura2' multiply defined.
+
 )
-\openout1 = `Trabajo1.aux'.
+\openout1 = `Trabajo2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -1219,9 +1234,9 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 
-(Trabajo1.out) (Trabajo1.out)
+(Trabajo2.out) (Trabajo2.out)
 \@outlinefile=\write5
-\openout5 = `Trabajo1.out'.
+\openout5 = `Trabajo2.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 20.
@@ -1307,13 +1322,13 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- (Trabajo1.nav)
+ (Trabajo2.nav)
 Overfull \hbox (157.61916pt too wide) in paragraph at lines 20--20
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (115.1916pt too wide) in paragraph at lines 20--20
+Overfull \hbox (43.1637pt too wide) in paragraph at lines 20--20
  [][][][]  
  []
 
@@ -1327,97 +1342,174 @@ Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [1
 
 {C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+<imagenes/pois1.png, id=51, 1371.1225pt x 727.71875pt>
+File: imagenes/pois1.png Graphic file (type png)
+
+<use imagenes/pois1.png>
+Package pdftex.def Info: imagenes/pois1.png used on input line 36.
+(pdftex.def)             Requested size: 356.48344pt x 189.20241pt.
+
+Overfull \hbox (15.78784pt too wide) in paragraph at lines 36--36
+ [] 
  []
 
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[2
-
-]
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[3
-
-]
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[4
-
-] <imagenes/Rplot1.png, id=134, 1009.7725pt x 536.0025pt>
-File: imagenes/Rplot1.png Graphic file (type png)
-
-<use imagenes/Rplot1.png>
-Package pdftex.def Info: imagenes/Rplot1.png used on input line 62.
-(pdftex.def)             Requested size: 302.93408pt x 160.80199pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 62.
+line 36.
 
 (C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1ma
 thkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+Overfull \vbox (40.2206pt too high) detected at line 36
+ []
+
+
 Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[2
+
+ <./imagenes/pois1.png>]
+<imagenes/pois5.png, id=82, 1371.1225pt x 727.71875pt>
+File: imagenes/pois5.png Graphic file (type png)
+
+<use imagenes/pois5.png>
+Package pdftex.def Info: imagenes/pois5.png used on input line 45.
+(pdftex.def)             Requested size: 356.48344pt x 189.20241pt.
+
+Overfull \hbox (15.78784pt too wide) in paragraph at lines 45--45
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \end{frame}
+                
+Overfull \vbox (40.2206pt too high) detected at line 45
+ []
+
+
+Overfull \hbox (157.61916pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[3
+
+ <./imagenes/pois5.png>]
+<imagenes/pois10.png, id=110, 1371.1225pt x 727.71875pt>
+File: imagenes/pois10.png Graphic file (type png)
+
+<use imagenes/pois10.png>
+Package pdftex.def Info: imagenes/pois10.png used on input line 54.
+(pdftex.def)             Requested size: 356.48344pt x 189.20241pt.
+
+Overfull \hbox (15.78784pt too wide) in paragraph at lines 54--54
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \end{frame}
+                
+Overfull \vbox (40.2206pt too high) detected at line 54
+ []
+
+
+Overfull \hbox (157.61916pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[4
+
+ <./imagenes/pois10.png>]
+<imagenes/logis01.png, id=138, 1371.1225pt x 727.71875pt>
+File: imagenes/logis01.png Graphic file (type png)
+
+<use imagenes/logis01.png>
+Package pdftex.def Info: imagenes/logis01.png used on input line 63.
+(pdftex.def)             Requested size: 356.48344pt x 189.20241pt.
+
+Overfull \hbox (15.78784pt too wide) in paragraph at lines 63--63
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \end{frame}
+                
+Overfull \vbox (40.2206pt too high) detected at line 63
+ []
+
+
+Overfull \hbox (157.61916pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [5
 
- <./imagenes/Rplot1.png>]
-<imagenes/logic.png, id=166, 985.6825pt x 541.02126pt>
-File: imagenes/logic.png Graphic file (type png)
+ <./imagenes/logis01.png>]
+<imagenes/logis94.png, id=166, 1371.1225pt x 727.71875pt>
+File: imagenes/logis94.png Graphic file (type png)
 
-<use imagenes/logic.png>
-Package pdftex.def Info: imagenes/logic.png used on input line 71.
-(pdftex.def)             Requested size: 295.70703pt x 162.30762pt.
+<use imagenes/logis94.png>
+Package pdftex.def Info: imagenes/logis94.png used on input line 72.
+(pdftex.def)             Requested size: 356.48344pt x 189.20241pt.
+
+Overfull \hbox (15.78784pt too wide) in paragraph at lines 72--72
+ [] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \end{frame}
+l.72 \end{frame}
                 
-Overfull \vbox (1.5633pt too high) detected at line 71
+Overfull \vbox (40.2206pt too high) detected at line 72
  []
 
 
@@ -1426,26 +1518,31 @@ Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [6
 
- <./imagenes/logic.png>]
-<imagenes/poisson.png, id=195, 1044.90375pt x 588.1975pt>
-File: imagenes/poisson.png Graphic file (type png)
+ <./imagenes/logis94.png>]
+<imagenes/logis156.png, id=194, 1371.1225pt x 727.71875pt>
+File: imagenes/logis156.png Graphic file (type png)
 
-<use imagenes/poisson.png>
-Package pdftex.def Info: imagenes/poisson.png used on input line 80.
-(pdftex.def)             Requested size: 313.47354pt x 176.4606pt.
+<use imagenes/logis156.png>
+Package pdftex.def Info: imagenes/logis156.png used on input line 81.
+(pdftex.def)             Requested size: 356.48344pt x 189.20241pt.
+
+Overfull \hbox (15.78784pt too wide) in paragraph at lines 81--81
+ [] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \end{frame}
+l.81 \end{frame}
                 
-Overfull \vbox (3.01627pt too high) detected at line 80
+Overfull \vbox (40.2206pt too high) detected at line 81
  []
 
 
@@ -1454,130 +1551,83 @@ Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  []
 
 
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [7
 
- <./imagenes/poisson.png>]
-Overfull \vbox (5.1361pt too high) detected at line 101
- []
-
-
+ <./imagenes/logis156.png>]
+<imagenes/bpois.png, id=223, 446.41782pt x 84.315pt>
+File: imagenes/bpois.png Graphic file (type png)
+ <use imagenes/bpois.png>
+Package pdftex.def Info: imagenes/bpois.png used on input line 90.
+(pdftex.def)             Requested size: 334.81253pt x 63.23607pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \end{frame}
+                
 Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [8
 
-] <imagenes/k.png, id=256, 570.13pt x 312.16624pt>
-File: imagenes/k.png Graphic file (type png)
- <use imagenes/k.png>
-Package pdftex.def Info: imagenes/k.png used on input line 110.
-(pdftex.def)             Requested size: 285.0643pt x 156.08273pt.
+ <./imagenes/bpois.png>]
+<imagenes/blogis.png, id=251, 468.24937pt x 87.32625pt>
+File: imagenes/blogis.png Graphic file (type png)
 
+<use imagenes/blogis.png>
+Package pdftex.def Info: imagenes/blogis.png used on input line 99.
+(pdftex.def)             Requested size: 351.18616pt x 65.49452pt.
+
+Overfull \hbox (10.49055pt too wide) in paragraph at lines 99--99
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 \end{frame}
+                
 Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
+Overfull \hbox (43.1637pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
- <./imagenes/k.png>]
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[10
-
-]
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[11
-
-]
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[12
-
-]
-\openout4 = `Trabajo1.vrb'.
-
- (Trabajo1.vrb)
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[13
-
-]
-\openout4 = `Trabajo1.vrb'.
-
- (Trabajo1.vrb)
-Overfull \hbox (157.61916pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-
-Overfull \hbox (115.1916pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[14
-
-]
+ <./imagenes/blogis.png>]
 \tf@nav=\write6
-\openout6 = `Trabajo1.nav'.
+\openout6 = `Trabajo2.nav'.
 
 \tf@toc=\write7
-\openout7 = `Trabajo1.toc'.
+\openout7 = `Trabajo2.toc'.
 
 \tf@snm=\write8
-\openout8 = `Trabajo1.snm'.
+\openout8 = `Trabajo2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
- (Trabajo1.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+ (Trabajo2.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
-Package rerunfilecheck Info: File `Trabajo1.out' has not changed.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package rerunfilecheck Info: File `Trabajo2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -1587,32 +1637,24 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 17931 strings out of 493334
- 341357 string characters out of 3139234
- 423885 words of memory out of 3000000
- 20991 multiletter control sequences out of 15000+200000
- 13112 words of font info for 48 fonts, out of 3000000 for 9000
+ 17819 strings out of 493334
+ 339265 string characters out of 3139234
+ 417740 words of memory out of 3000000
+ 20901 multiletter control sequences out of 15000+200000
+ 10168 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,59p,784b,655s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Trabajo1.pdf (14 pages, 335200 bytes).
+ 56i,17n,55p,413b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmss8.pfb>
+Output written on Trabajo2.pdf (9 pages, 215594 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

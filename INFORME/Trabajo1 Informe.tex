@@ -7,7 +7,7 @@
 % utilizar otro idioma, cambiar el comando "\documentclass{revcoles}" por el comando
 % "\documentclass[english]{revcoles}" o por "\documentclass[portuguese]{revcoles}"
 % **** --------------------------------------------------------------------------------
-\documentclass[11pt,report,oneside]{revcoles}
+\documentclass[13pt,report,oneside]{revcoles}
 \usepackage{anysize}
 \marginsize{1cm}{1cm}{1cm}{1cm}
 \labeldocument[
@@ -170,7 +170,7 @@ $$Z= \frac{ \bar{X} - \mu_X } {\frac{\sigma_x} {\sqrt{n}}}$$
 $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 
 \subsubsection{Prueba Cramer-Von Mises.}
-~\\ 
+~\\La distribución normal es utilizada en muchos campos ya que es el supuesto ba?sico de algunas herramientas estadísticas tales como las pruebas t-student, Chi-Cuadrado, ANOVA, entre otros. Esto hace que muchos fenómenos puedan ser modelados mediante ella, lo cual promueve el desarrollo de distintas pruebas estadísticas que se encuentran en la literatura de las cuales se destacan las de Pearson (Pearson 1900), \textbf {Cramer-Von Mises (Cramer 1928 y Mises 1947)}, Kolmogorov- Smirnov (Lilliefors 1967), Anderson-Darling, (Anderson y Darling 1954) Shapiro-Wilk, (Shapiro y Wilk 1965) Shapiro-Francia, (Shapiro y Francia 1972) Jarque-Bera (Jarque y Bera 1987) y D'Agostino (D'Agostino 1972), de las cuales veremos la aplicación de una de ellas en el presente informe que tiene como fin verificar el Teorema Central del Limite y establecer bajo que condiciones especificas se presenta convergencia con la distribución Normal (0,1) a partir de la simulación de variables aleatorias. 
 
 \section{SIMULACIÓN DE VARIABLES ALEATORIAS Y PRUEBAS DE NORMALIDAD}
 \subsection{Simulación de las observaciones:}
@@ -208,9 +208,6 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 \pagebreak
 ~\\En esta gráfica se puede observar como los valores obtenidos para la distribucion de poisson  por el generador de R son casi identicos a los valores obtenidos por el generador propio de la distribución Poisson, por lo cuál se espera que la prueba de bondad de ajuste arroje que la distribución de los datos generados por el método propio de la Poisson realmente sigue una distribución Poisson($\lambda=1$), ($\lambda=5$), ($\lambda=10$)
 
-\subsubsection*{Prueba Cramer-Von Mises.}
-
-
 \subsubsection{Distribucion Logistica:}
 \begin{figure}[!htb]
 	\centering
@@ -232,12 +229,45 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 
 ~\\En esta gráfica se puede ver claramente como el histograma de los datos generados de la distribución Logistica muestra un comportamiento que sigue realmente la distribución esperada. 
 
-\newpage\subsubsection*{Prueba Cramer-Von Mises.}
+\subsubsection{Prueba Cramer-Von Mises Distribución Poisson.}
+\begin{center}
+	\begin{tabular}{ccccccccc}
+		\hline
+		\rule[-1ex]{0pt}{2.5ex}    & n=1 & n=1 & n=5 & n=5 & n=10 & n=10 &  n=30 &  n=30\\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  Parametro & W & P-Valor & W & P-Valor & W & P-Valor & W & P-Valor \\ 
+		\hline  
+		\rule[-1ex]{0pt}{2.5ex}  $\lambda=1 $ & 413.11 & 0.09893 & 684.06 & 0.1594 & 773.64 & 0.1755 & 867.2 & 0.1907 \\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  $\lambda=5 $ & 1574.2 & 0.2727 & 1665.3 & 0.2805 & 1666.5 & 0.2806 & 1666.6& 0.2806 \\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  $\lambda=10 $ & 1665.5 & 0.2805 & 1666.7 & 0.2806 & 1666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
+		\hline 
+	\end{tabular} 
+\end{center}
+
+\subsubsection{Prueba Cramer-Von Mises Distribución Logística.}
+\begin{center}
+	\begin{tabular}{ccccccccc}
+		\hline
+		\rule[-1ex]{0pt}{2.5ex}    & n=1 & n=1 & n=10 & n=10 & n=25 & n=25 &  n=50 &  n=50\\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  Parametro & W & P-Valor & W & P-Valor & W & P-Valor & W & P-Valor \\ 
+		\hline  
+		\rule[-1ex]{0pt}{2.5ex}  ($a=0,b=1$) & 413.11 & 0.09893 & 684.06 & 0.1594 & 773.64 & 0.1755 & 867.2 & 0.1907 \\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  ($a=9,b=4$) & 1574.2 & 0.2727 & 1665.3 & 0.2805 & 1666.5 & 0.2806 & 1666.6& 0.2806 \\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  ($a=15,b=6$) & 1665.5 & 0.2805 & 1666.7 & 0.2806 & 1666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
+		\hline 
+	\end{tabular} 
+\end{center}
 
 
-
-\section{Conclusiones}
+\newpage\section{Conclusiones}
 \begin{itemize}
+\item 
+\item 
 \item 
 \end{itemize}
 
@@ -251,7 +281,81 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 
 \pagebreak\section{Scripts}
 \begin{verbatim}
+#-----------------------------------#
+# Kevin Steven Garcia Chica
+# Cesar A. Saavedra 
+# Simulacion Estadistica Trabajo 2
+#-----------------------------------#
+install.packages("goftest")
+library("goftest")
+#funci?n:
+Fun<-function(x,n,k){
+N=length(x)
+medias=rep(0,k)
+for (i in 1:k) {
+O=order(runif(N))
+medias[i]=mean(x[O[1:n]])
+}
+m=round(mean(medias),4)
+s2=round((var(medias)*(k-1)/k*10000)/10000,4)
+hist(medias,freq=FALSE,ylab="Densidad",xlab = paste("Promedios con n =",n,"datos"),
+main = paste("Media =",m,"\n Varianza =",s2))
 
+curve(exp(-((x-mean(medias))/sd(medias))^2/2)/(sd(medias)*sqrt(2*pi))
+,min(medias),max(medias),add=T)
+cvm.test(medias,"pnorm")
+}
+
+#Distribuci?n Logistica: 
+x<-rlogis(20000,0,1)  #Par?metros 0,1
+x11()
+par(mfrow=c(2,2))
+Fun(x,1,5000)
+Fun(x,10,5000)
+Fun(x,25,5000)
+Fun(x,50,5000)
+
+
+x1<-rlogis(20000,9,4)  #Par?metros 9,4 
+x11()
+par(mfrow=c(2,2))
+Fun(x1,1,5000)
+Fun(x1,10,5000)
+Fun(x1,25,5000)
+Fun(x1,50,5000)
+
+x2<-rlogis(20000,15,6)  #Par?metros 15,6 
+x11()
+par(mfrow=c(2,2))
+Fun(x2,1,5000)
+Fun(x2,10,5000)
+Fun(x2,25,5000)
+Fun(x2,50,5000)
+
+#Distribuci?n Poisson:
+x3<-rpois(20000,1)  #Par?metro lambda=1
+x11()
+par(mfrow=c(2,2))
+Fun(x3,1,5000)
+Fun(x3,5,5000)
+Fun(x3,10,5000)
+Fun(x3,30,5000)
+
+x4<-rpois(20000,5)  #Par?metros lambda=5 
+x11()
+par(mfrow=c(2,2))
+Fun(x4,1,5000)
+Fun(x4,5,5000)
+Fun(x4,10,5000)
+Fun(x4,30,5000)
+
+x5<-rpois(20000,10)  #Par?metros lambda=10
+x11()
+par(mfrow=c(2,2))
+Fun(x5,1,5000)
+Fun(x5,5,5000)
+Fun(x5,10,5000)
+Fun(x5,30,5000)
 \end{verbatim}
 
 % //// --------------------------------------------------------------------------------

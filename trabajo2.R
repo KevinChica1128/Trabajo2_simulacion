@@ -23,6 +23,8 @@ Fun<-function(x,n,k){
   cvm.test(medias,"pnorm")
   }
 
+
+
 #Distribución Logistica: 
 x<-rlogis(20000,0,1)  #Parámetros 0,1
 x11()

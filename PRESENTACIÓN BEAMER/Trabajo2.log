@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAY 2018 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAY 2018 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1449,17 +1449,6 @@ Overfull \hbox (102.4085pt too wide) has occurred while \output is active
 [7
 
  <./imagenes/logis156.png>]
-<imagenes/bpois.png, id=225, 446.41782pt x 84.315pt>
-File: imagenes/bpois.png Graphic file (type png)
- <use imagenes/bpois.png>
-Package pdftex.def Info: imagenes/bpois.png used on input line 90.
-(pdftex.def)             Requested size: 334.81253pt x 63.23607pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.90 \end{frame}
-                
 Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1471,24 +1460,18 @@ Overfull \hbox (102.4085pt too wide) has occurred while \output is active
 
 [8
 
- <./imagenes/bpois.png>]
-<imagenes/blogis.png, id=254, 468.24937pt x 87.32625pt>
-File: imagenes/blogis.png Graphic file (type png)
+] <imagenes/bpois.png, id=257, 446.41782pt x 84.315pt>
+File: imagenes/bpois.png Graphic file (type png)
 
-<use imagenes/blogis.png>
-Package pdftex.def Info: imagenes/blogis.png used on input line 99.
-(pdftex.def)             Requested size: 351.18616pt x 65.49452pt.
-
-Overfull \hbox (10.49055pt too wide) in paragraph at lines 99--99
- [] 
- []
-
+<use imagenes/bpois.png>
+Package pdftex.def Info: imagenes/bpois.png used on input line 101.
+(pdftex.def)             Requested size: 334.81253pt x 63.23607pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 \end{frame}
-                
+l.101 \end{frame}
+                 
 Overfull \hbox (157.61916pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1500,6 +1483,35 @@ Overfull \hbox (102.4085pt too wide) has occurred while \output is active
 
 [9
 
+ <./imagenes/bpois.png>]
+<imagenes/blogis.png, id=285, 468.24937pt x 87.32625pt>
+File: imagenes/blogis.png Graphic file (type png)
+
+<use imagenes/blogis.png>
+Package pdftex.def Info: imagenes/blogis.png used on input line 110.
+(pdftex.def)             Requested size: 351.18616pt x 65.49452pt.
+
+Overfull \hbox (10.49055pt too wide) in paragraph at lines 110--110
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figura2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 \end{frame}
+                 
+Overfull \hbox (157.61916pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (102.4085pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
  <./imagenes/blogis.png>]
 \tf@nav=\write6
 \openout6 = `Trabajo2.nav'.
@@ -1510,14 +1522,14 @@ Overfull \hbox (102.4085pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `Trabajo2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (./Trabajo2.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `Trabajo2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1530,22 +1542,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18158 strings out of 492995
- 340456 string characters out of 6132704
- 425509 words of memory out of 5000000
- 21264 multiletter control sequences out of 15000+600000
- 10168 words of font info for 37 fonts, out of 8000000 for 9000
+ 18191 strings out of 492995
+ 340914 string characters out of 6132704
+ 425510 words of memory out of 5000000
+ 21285 multiletter control sequences out of 15000+600000
+ 13752 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,17n,55p,796b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on Trabajo2.pdf (9 pages, 169140 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Trabajo2.pdf (10 pages, 211585 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 22 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

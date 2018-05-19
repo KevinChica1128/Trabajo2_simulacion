@@ -172,15 +172,26 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 \subsubsection{Prueba Cramer-Von Mises.}
 ~\\La distribución normal es utilizada en muchos campos ya que es el supuesto ba?sico de algunas herramientas estadísticas tales como las pruebas t-student, Chi-Cuadrado, ANOVA, entre otros. Esto hace que muchos fenómenos puedan ser modelados mediante ella, lo cual promueve el desarrollo de distintas pruebas estadísticas que se encuentran en la literatura de las cuales se destacan las de Pearson (Pearson 1900), \textbf {Cramer-Von Mises (Cramer 1928 y Mises 1947)}, Kolmogorov- Smirnov (Lilliefors 1967), Anderson-Darling, (Anderson y Darling 1954) Shapiro-Wilk, (Shapiro y Wilk 1965) Shapiro-Francia, (Shapiro y Francia 1972) Jarque-Bera (Jarque y Bera 1987) y D'Agostino (D'Agostino 1972), de las cuales veremos la aplicación de una de ellas en el presente informe que tiene como fin verificar el Teorema Central del Limite y establecer bajo que condiciones especificas se presenta convergencia con la distribución Normal (0,1) a partir de la simulación de variables aleatorias. 
 
+\pagebreak
+~\\ \textbf{Para los cuales esta prueba plantea las hipotesis:}
+$$H_{0}:f(x,\theta)=f_{0}(x,\theta)$$
+$$H_{1}:f(x,\theta)\neq f_{0}(x,\theta) $$ 
+
+~\\ \textbf{Para la cual se tiene como estadístico de prueba a:}
+$$ W = \frac{1}{12n} + \displaystyle\sum_{i=1}^N [P_i - \frac{2_i - 1 }{2n}] $$
+
 \section{SIMULACIÓN DE VARIABLES ALEATORIAS Y PRUEBAS DE NORMALIDAD}
 \subsection{Simulación de las observaciones:}
 \subsubsection{Distribución Poisson:}
 ~\\Es importante recordar que los parámetros sobre los cuales se van a generar las observaciones son ($\lambda=1$), ($\lambda=5$), ($\lambda=10$), con 20000 simulaciones para las cuales se sacaron muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$) datos. La generación de estos números se hizo por medio del comando rpois del software estadístico R.
 
 \subsubsection{Distribución Logística:}
-~\\El uso de esta distribución en la problemática del articulo es una función derivada de ella, es decir, no se usa directamente la función de densidad logística para describir el fenómeno, se usa su función de distribución acumulada, denominada también función logística. Teniendo en cuenta lo anterior, se generaron datos con distribución Logística de parametros ($a=0,b=1$), ($a=9,b=4$), ($a=15,b=6$), con 20000 simulaciones para las cuales se sacaron muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$) datos.
+~\\El uso de esta distribución en la problemática del articulo es una función derivada de ella, es decir, no se usa directamente la función de densidad logística para describir el fenómeno, se usa su función de distribución acumulada, denominada también función logística. Teniendo en cuenta lo anterior, se generaron datos con distribución Logística de parámetros ($a=0,b=1$), ($a=9,b=4$), ($a=15,b=6$), con 20000 simulaciones para las cuales se sacaron muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$) datos.
 
-\subsubsection*{Prueba Cramer-Von Mises.}
+\subsection{Prueba Cramer-Von Mises.}
+~\\Uno de los criterios mas utilizados para comparar funciones es el introducido por los investigadores Harald Cramér y Richard Edler Von Mises y conocido como criterio de Cramér - Von Mises (CM ) siendo aplicado a problemas de bondad de ajuste de una distribución como el que nos compete trabajar en este informe a través de la función \textbf {cvm.test} que nos permite obtener los valores-p calculando así la proporción de rechazo de la prueba. 
+
+~\\Una de las grandes ventajas del test de Cramér-Von Mises para n muestras independientes radica en que su distribución no depende de la distribución de procedencia de las muestras. Por este motivo, para ilustrar la calidad de las aproximaciones propuestas, no es necesario considerar distintos modelos, por lo cual para nuestro escenario de simulación hemos propuesto tamaños de muestras ($n=1$), ($n=10$), ($n=25$), ($n=50$) a partir de 20000 simulaciones que serán las que permitan hacer las aproximaciones y saber así bajo que condiciones se alcanza la convergencia de nuestras distribuciones (Poisson, Logística) a una distribución Normal (0,1).
 
 \pagebreak
 \section{Resultados}
@@ -204,11 +215,26 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 	\caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$)}\label{figura1}
 \end{figure}
 
+\subsubsection{Prueba Cramer-Von Mises Distribución Poisson.}
+\begin{center}
+	\begin{tabular}{ccccccccc}
+		\hline
+		\rule[-1ex]{0pt}{2.5ex}    & n=1 & n=1 & n=5 & n=5 & n=10 & n=10 &  n=30 &  n=30\\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  Parametro & W & P-Valor & W & P-Valor & W & P-Valor & W & P-Valor \\ 
+		\hline  
+		\rule[-1ex]{0pt}{2.5ex}  $\lambda=1 $ & 413.11 & 0.09893 & 684.06 & 0.1594 & 773.64 & 0.1755 & 867.2 & 0.1907 \\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  $\lambda=5 $ & 1574.2 & 0.2727 & 1665.3 & 0.2805 & 1666.5 & 0.2806 & 1666.6& 0.2806 \\ 
+		
+		\rule[-1ex]{0pt}{2.5ex}  $\lambda=10 $ & 1665.5 & 0.2805 & 1666.7 & 0.2806 & 1666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
+		\hline 
+	\end{tabular} 
+\end{center}
 
-\pagebreak
-~\\En esta gráfica se puede observar como los valores obtenidos para la distribucion de poisson  por el generador de R son casi identicos a los valores obtenidos por el generador propio de la distribución Poisson, por lo cuál se espera que la prueba de bondad de ajuste arroje que la distribución de los datos generados por el método propio de la Poisson realmente sigue una distribución Poisson($\lambda=1$), ($\lambda=5$), ($\lambda=10$)
+~\\En las graficas presentadas en la \textbf{sección 4.0.1} se puede observar como los valores obtenidos para la distribución de poisson de parámetros ($\lambda=1$), ($\lambda=5$), ($\lambda=10$) con tamaños de muestra ($n=1$), ($n=10$), ($n=25$), ($n=50$) por el generador de R, se aprecia que a medida que se aumenta el tamaño n de la muestra, el comportamiento de la distribución se traslada hasta llegar a asemejarse a la distribución normal por lo cuál se puede concluir que se cumple así con el teorema del limite central el cual afirma que cuando el tamaño de la muestra es lo suficientemente grande, la distribución de las medias sigue aproximadamente una distribución normal. La afirmación anterior se puede validar mediante la prueba de bondad de ajuste, para el caso particular que nos compete se uso la prueba de normalidad Cramer-Von mises que nos permite determinar la pertenencia de los datos simulados a la distribución normal,  los valores-p correspondientes a la prueba se encuentran en la tabla \textbf{sección 4.0.2} en los cuales se observa como el valor-p aumentan mejorando el ajuste de la prueba.
 
-\subsubsection{Distribucion Logistica:}
+\newpage\subsubsection{Distribucion Logistica:}
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.37]{FigurasUV/logis01.png}
@@ -227,26 +253,7 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 	\caption{Simulaciones en R de la distribución Logística($a=15,b=6$) con muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$)}\label{figura1}
 \end{figure}
 
-~\\En esta gráfica se puede ver claramente como el histograma de los datos generados de la distribución Logistica muestra un comportamiento que sigue realmente la distribución esperada. 
-
-\subsubsection{Prueba Cramer-Von Mises Distribución Poisson.}
-\begin{center}
-	\begin{tabular}{ccccccccc}
-		\hline
-		\rule[-1ex]{0pt}{2.5ex}    & n=1 & n=1 & n=5 & n=5 & n=10 & n=10 &  n=30 &  n=30\\ 
-		
-		\rule[-1ex]{0pt}{2.5ex}  Parametro & W & P-Valor & W & P-Valor & W & P-Valor & W & P-Valor \\ 
-		\hline  
-		\rule[-1ex]{0pt}{2.5ex}  $\lambda=1 $ & 413.11 & 0.09893 & 684.06 & 0.1594 & 773.64 & 0.1755 & 867.2 & 0.1907 \\ 
-		
-		\rule[-1ex]{0pt}{2.5ex}  $\lambda=5 $ & 1574.2 & 0.2727 & 1665.3 & 0.2805 & 1666.5 & 0.2806 & 1666.6& 0.2806 \\ 
-		
-		\rule[-1ex]{0pt}{2.5ex}  $\lambda=10 $ & 1665.5 & 0.2805 & 1666.7 & 0.2806 & 1666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
-		\hline 
-	\end{tabular} 
-\end{center}
-
-\subsubsection{Prueba Cramer-Von Mises Distribución Logística.}
+\pagebreak\subsubsection{Prueba Cramer-Von Mises Distribución Logística.}
 \begin{center}
 	\begin{tabular}{ccccccccc}
 		\hline
@@ -263,20 +270,22 @@ $$F(x,a,b)=\frac{1}{1+e^-(\frac{x-a}{b})}$$
 	\end{tabular} 
 \end{center}
 
+~\\En las graficas presentadas en la \textbf{sección 4.0.3} se puede observar como los valores obtenidos para la distribución Logística de parámetros ($a=0,b=1$), ($a=9,b=4$), ($a=15,b=6$), con tamaños de muestra ($n=1$), ($n=10$), ($n=25$), ($n=50$) por el generador de R, se aprecia que la distribución tiene ya un comportamiento semejante al de la distribución normal, siendo esta simetrica al rededor del parametro \textbf{a}. Mas sin embargo se aprecia como al  aumentar el tamaño n de la muestra, el comportamiento de la distribución logística se hace mas a la distribución normal por lo cuál se puede concluir que se cumple así con el teorema del limite central el cual afirma que cuando el tamaño de la muestra es lo suficientemente grande, la distribución de las medias sigue aproximadamente una distribución normal. La afirmación anterior se puede validar mediante la prueba de bondad de ajuste, para el caso particular se uso la prueba de normalidad Cramer-Von mises que nos permite determinar la pertenencia de los datos simulados a la distribución normal,  los valores-p correspondientes a la prueba se encuentran en la tabla \textbf{sección 4.0.4} en los cuales se observa como el valor-p aumentan mejorando el ajuste de la prueba.
 
-\newpage\section{Conclusiones}
 \begin{itemize}
-\item 
-\item 
-\item 
+\item Es posible afirmar que para n de tamaño mayores a 30 ($n>30$) se cumple el Teorema.
+\item La distribución de probabilidad de X afecta la convergencia.
+\item Los parámetros de la distribución de probabilidad de X afecta la convergencia.
 \end{itemize}
 
-\subsection{Bibliografía}
+\pagebreak
+\section{Referencias}
 ~\begin{itemize}
-\item\textbf {}
-\item\textbf {}
-\item\textbf {}
-
+\item\textbf {$https://www.vitutor.com/estadistica/inferencia/intervalos.html$}
+\item\textbf {$http://www.ub.edu/stat/GrupsInnovacio/Statmedia/demo/Temas/Capitulo5/B0C5m1t4.htm$}
+\item\textbf {$http://e-stadistica.bio.ucm.es/glosario2/teor_limite_central.html$}
+\item\textbf {$https://www.researchgate.net/publication/262701897_Sobre_el_Estadistico_de_Cramer-Von_Mises$}
+\item\textbf {$http://www.scielo.sa.cr/pdf/rmta/v19n1/a07v19n1.pdf$}
 \end{itemize}
 
 \pagebreak\section{Scripts}

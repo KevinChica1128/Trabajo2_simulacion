@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAY 2018 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAY 2018 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,45 +472,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[2] [3] <FigurasUV/pois1.png, id=31, 1371.1225pt x 727.71875pt>
+[2] [3] <FigurasUV/pois1.png, id=32, 1371.1225pt x 727.71875pt>
 File: FigurasUV/pois1.png Graphic file (type png)
 
 <use FigurasUV/pois1.png>
-Package pdftex.def Info: FigurasUV/pois1.png used on input line 190.
+Package pdftex.def Info: FigurasUV/pois1.png used on input line 201.
 (pdftex.def)             Requested size: 507.30739pt x 269.25171pt.
 File: FigurasUV/pois1.png Graphic file (type png)
  <use FigurasUV/pois1.png>
-Package pdftex.def Info: FigurasUV/pois1.png used on input line 196.
+Package pdftex.def Info: FigurasUV/pois1.png used on input line 207.
 (pdftex.def)             Requested size: 507.30739pt x 269.25171pt.
 File: FigurasUV/pois1.png Graphic file (type png)
  <use FigurasUV/pois1.png>
-Package pdftex.def Info: FigurasUV/pois1.png used on input line 203.
+Package pdftex.def Info: FigurasUV/pois1.png used on input line 214.
 (pdftex.def)             Requested size: 507.30739pt x 269.25171pt.
 
-[4 <./FigurasUV/pois1.png>]
-<FigurasUV/logis01.png, id=39, 1371.1225pt x 727.71875pt>
+[4 <./FigurasUV/pois1.png>] [5]
+<FigurasUV/logis01.png, id=43, 1371.1225pt x 727.71875pt>
 File: FigurasUV/logis01.png Graphic file (type png)
 
 <use FigurasUV/logis01.png>
-Package pdftex.def Info: FigurasUV/logis01.png used on input line 214.
+Package pdftex.def Info: FigurasUV/logis01.png used on input line 240.
 (pdftex.def)             Requested size: 507.30739pt x 269.25171pt.
 
-<FigurasUV/logis94.png, id=40, 1371.1225pt x 727.71875pt>
+<FigurasUV/logis94.png, id=44, 1371.1225pt x 727.71875pt>
 File: FigurasUV/logis94.png Graphic file (type png)
 
 <use FigurasUV/logis94.png>
-Package pdftex.def Info: FigurasUV/logis94.png used on input line 220.
+Package pdftex.def Info: FigurasUV/logis94.png used on input line 246.
 (pdftex.def)             Requested size: 507.30739pt x 269.25171pt.
 
-<FigurasUV/logis156.png, id=41, 1371.1225pt x 727.71875pt>
+<FigurasUV/logis156.png, id=45, 1371.1225pt x 727.71875pt>
 File: FigurasUV/logis156.png Graphic file (type png)
 
 <use FigurasUV/logis156.png>
-Package pdftex.def Info: FigurasUV/logis156.png used on input line 226.
+Package pdftex.def Info: FigurasUV/logis156.png used on input line 252.
 (pdftex.def)             Requested size: 507.30739pt x 269.25171pt.
- [5 <./FigurasUV/logis01.png>] [6 <./FigurasUV/logis94.png> <./FigurasUV/logis1
-56.png>] [7] [8]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 283.
+ [6 <./FigurasUV/logis01.png> <./FigurasUV/logis94.png>] [7 <./FigurasUV/logis1
+56.png>] [8]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 292.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -525,41 +525,42 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5375 strings out of 492995
- 75688 string characters out of 6132704
+ 5385 strings out of 492995
+ 75838 string characters out of 6132704
  149801 words of memory out of 5000000
- 8804 multiletter control sequences out of 15000+600000
+ 8814 multiletter control sequences out of 15000+600000
  21428 words of font info for 61 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,8n,40p,1030b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,1291b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1000.pfb>
-Output written on "Trabajo1 Informe.pdf" (10 pages, 382044 bytes).
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sftt1000.pfb>
+Output written on "Trabajo1 Informe.pdf" (10 pages, 403492 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -183,7 +183,7 @@ $$ W = \frac{1}{12n} + \displaystyle\sum_{i=1}^N [P_i - \frac{2_i - 1 }{2n}] $$
 \section{SIMULACIÓN DE VARIABLES ALEATORIAS Y PRUEBAS DE NORMALIDAD}
 \subsection{Simulación de las observaciones:}
 \subsubsection{Distribución Poisson:}
-~\\Es importante recordar que los parámetros sobre los cuales se van a generar las observaciones son ($\lambda=1$), ($\lambda=5$), ($\lambda=10$), con 20000 simulaciones para las cuales se sacaron muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$) datos. La generación de estos números se hizo por medio del comando rpois del software estadístico R.
+~\\Es importante recordar que los parámetros sobre los cuales se van a generar las observaciones son ($\lambda=1$), ($\lambda=5$), ($\lambda=10$), con 20000 simulaciones para las cuales se sacaron muestras de tamaño ($n=1$), ($n=5$), ($n=10$), ($n=30$) datos. La generación de estos números se hizo por medio del comando rpois del software estadístico R.
 
 \subsubsection{Distribución Logística:}
 ~\\El uso de esta distribución en la problemática del articulo es una función derivada de ella, es decir, no se usa directamente la función de densidad logística para describir el fenómeno, se usa su función de distribución acumulada, denominada también función logística. Teniendo en cuenta lo anterior, se generaron datos con distribución Logística de parámetros ($a=0,b=1$), ($a=9,b=4$), ($a=15,b=6$), con 20000 simulaciones para las cuales se sacaron muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$) datos.
@@ -191,7 +191,7 @@ $$ W = \frac{1}{12n} + \displaystyle\sum_{i=1}^N [P_i - \frac{2_i - 1 }{2n}] $$
 \subsection{Prueba Cramer-Von Mises.}
 ~\\Uno de los criterios mas utilizados para comparar funciones es el introducido por los investigadores Harald Cramér y Richard Edler Von Mises y conocido como criterio de Cramér - Von Mises (CM ) siendo aplicado a problemas de bondad de ajuste de una distribución como el que nos compete trabajar en este informe a través de la función \textbf {cvm.test} que nos permite obtener los valores-p calculando así la proporción de rechazo de la prueba. 
 
-~\\Una de las grandes ventajas del test de Cramér-Von Mises para n muestras independientes radica en que su distribución no depende de la distribución de procedencia de las muestras. Por este motivo, para ilustrar la calidad de las aproximaciones propuestas, no es necesario considerar distintos modelos, por lo cual para nuestro escenario de simulación hemos propuesto tamaños de muestras ($n=1$), ($n=10$), ($n=25$), ($n=50$) a partir de 20000 simulaciones que serán las que permitan hacer las aproximaciones y saber así bajo que condiciones se alcanza la convergencia de nuestras distribuciones (Poisson, Logística) a una distribución Normal (0,1).
+~\\Una de las grandes ventajas del test de Cramér-Von Mises para n muestras independientes radica en que su distribución no depende de la distribución de procedencia de las muestras. Por este motivo, para ilustrar la calidad de las aproximaciones propuestas, no es necesario considerar distintos modelos, por lo cual para nuestro escenario de simulación hemos propuesto tamaños de muestras ($n=1$), ($n=10$), ($n=25$), ($n=30$), ($n=50$) a partir de 20000 simulaciones que serán las que permitan hacer las aproximaciones y saber así bajo que condiciones se alcanza la convergencia de nuestras distribuciones (Poisson, Logística) a una distribución Normal (0,1).
 
 \pagebreak
 \section{Resultados}
@@ -199,20 +199,20 @@ $$ W = \frac{1}{12n} + \displaystyle\sum_{i=1}^N [P_i - \frac{2_i - 1 }{2n}] $$
 \begin{figure}[!htb]
   \centering
   \includegraphics[scale=0.37]{FigurasUV/pois1.png}
-  \caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$)}\label{figura1}
+  \caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=5$), ($n=10$), ($n=30$))}\label{figura1}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.37]{FigurasUV/pois1.png}
-	\caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$)}\label{figura1}
+	\caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=5$), ($n=10$), ($n=30$)}\label{figura1}
 \end{figure}
 
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[scale=0.37]{FigurasUV/pois1.png}
-	\caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=10$), ($n=25$), ($n=50$)}\label{figura1}
+	\caption{Simulaciones en R de la distribución Poisson($\lambda=1$) con muestras de tamaño ($n=1$), ($n=5$), ($n=10$), ($n=30$)}\label{figura1}
 \end{figure}
 
 \subsubsection{Prueba Cramer-Von Mises Distribución Poisson.}
@@ -261,11 +261,11 @@ $$ W = \frac{1}{12n} + \displaystyle\sum_{i=1}^N [P_i - \frac{2_i - 1 }{2n}] $$
 		
 		\rule[-1ex]{0pt}{2.5ex}  Parametro & W & P-Valor & W & P-Valor & W & P-Valor & W & P-Valor \\ 
 		\hline  
-		\rule[-1ex]{0pt}{2.5ex}  ($a=0,b=1$) & 413.11 & 0.09893 & 684.06 & 0.1594 & 773.64 & 0.1755 & 867.2 & 0.1907 \\ 
+		\rule[-1ex]{0pt}{2.5ex}  ($a=0,b=1$) & 34.305 & 0.00003161 & 44.849 & 0.0002001 & 123.58 & 0.01235 & 186.76 & 0.03106\\ 
 		
-		\rule[-1ex]{0pt}{2.5ex}  ($a=9,b=4$) & 1574.2 & 0.2727 & 1665.3 & 0.2805 & 1666.5 & 0.2806 & 1666.6& 0.2806 \\ 
+		\rule[-1ex]{0pt}{2.5ex}  ($a=9,b=4$) &  1119.3 & 0.2254 & 1664.4 & 0.2805 & 11666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
 		
-		\rule[-1ex]{0pt}{2.5ex}  ($a=15,b=6$) & 1665.5 & 0.2805 & 1666.7 & 0.2806 & 1666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
+		\rule[-1ex]{0pt}{2.5ex}  ($a=15,b=6$) & 1254.3 & 0.2411 & 1666.6 & 0.2806 & 1666.7 & 0.2806 & 1666.7 & 0.2806 \\ 
 		\hline 
 	\end{tabular} 
 \end{center}

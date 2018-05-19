@@ -20,63 +20,64 @@ Fun<-function(x,n,k){
   
   curve(exp(-((x-mean(medias))/sd(medias))^2/2)/(sd(medias)*sqrt(2*pi))
         ,min(medias),max(medias),add=T)
-  cvm.test(medias,"pnorm")
+  cvm.test(medias,"pnorm",mean=m,sd=sqrt(s2))
   }
 
-<<<<<<< HEAD
+
 
 
 #Distribución Logistica: 
+set.seed(1)
 x<-rlogis(20000,0,1)  #Parámetros 0,1
-=======
-#Distribuci?n Logistica: 
-x<-rlogis(20000,0,1)  #Par?metros 0,1
->>>>>>> f86391c54e691256d033e1d8861925587ed89628
 x11()
 par(mfrow=c(2,2))
-Fun(x,1,5000)
-Fun(x,10,5000)
-Fun(x,25,5000)
-Fun(x,50,5000)
+Fun(x,1,1000)
+Fun(x,10,1000)
+Fun(x,25,1000)
+Fun(x,50,1000)
 
-
+set.seed(2)
 x1<-rlogis(20000,9,4)  #Par?metros 9,4 
 x11()
 par(mfrow=c(2,2))
-Fun(x1,1,5000)
-Fun(x1,10,5000)
-Fun(x1,25,5000)
-Fun(x1,50,5000)
+Fun(x1,1,1000)
+Fun(x1,10,1000)
+Fun(x1,25,1000)
+Fun(x1,50,1000)
 
+set.seed(3)
 x2<-rlogis(20000,15,6)  #Par?metros 15,6 
 x11()
 par(mfrow=c(2,2))
-Fun(x2,1,5000)
-Fun(x2,10,5000)
-Fun(x2,25,5000)
-Fun(x2,50,5000)
+Fun(x2,1,1000)
+Fun(x2,10,1000)
+Fun(x2,25,1000)
+Fun(x2,50,1000)
 
 #Distribuci?n Poisson:
+set.seed(4)
 x3<-rpois(20000,1)  #Par?metro lambda=1
 x11()
 par(mfrow=c(2,2))
-Fun(x3,1,5000)
-Fun(x3,5,5000)
-Fun(x3,10,5000)
-Fun(x3,30,5000)
+Fun(x3,1,1000)
+Fun(x3,10,1000)
+Fun(x3,25,1000)
+Fun(x3,50,1000)
 
+set.seed(5)
 x4<-rpois(20000,5)  #Par?metros lambda=5 
 x11()
 par(mfrow=c(2,2))
-Fun(x4,1,5000)
-Fun(x4,5,5000)
-Fun(x4,10,5000)
-Fun(x4,30,5000)
+Fun(x4,1,1000)
+Fun(x4,10,1000)
+Fun(x4,25,1000)
+Fun(x4,50,1000)
 
+set.seed(6)
 x5<-rpois(20000,10)  #Par?metros lambda=10
 x11()
 par(mfrow=c(2,2))
-Fun(x5,1,5000)
-Fun(x5,5,5000)
-Fun(x5,10,5000)
-Fun(x5,30,5000)
+Fun(x5,1,1000)
+Fun(x5,10,1000)
+Fun(x5,25,1000)
+Fun(x5,50,1000)

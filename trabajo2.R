@@ -81,3 +81,13 @@ Fun(x5,1,1000)
 Fun(x5,10,1000)
 Fun(x5,25,1000)
 Fun(x5,50,1000)
+
+#Poblaciones
+x11()
+par(mfrow=c(2,3))
+plot(table(x3),xlab = "x",ylab = "Frecuencia",main=expression(paste(lambda,"=1")))
+plot(table(x4),xlab = "x",ylab = "Frecuencia",main=expression(paste(lambda,"=5")))
+plot(table(x5),xlab = "x",ylab = "Frecuencia",main=expression(paste(lambda,"=10")))
+hist(x,xlab = "x",ylab = "Frecuencia",main="a=0,b=1")
+hist(x1,xlab = "x",ylab = "Frecuencia",main="a=9,b=4")
+hist(x2,xlab = "x",ylab = "Frecuencia",main="a=15,b=6")
